@@ -1,0 +1,4 @@
+USA = {
+	color = rgb { 14 19 93 }
+	color_ui = rgb { 14 19 93 }
+}
