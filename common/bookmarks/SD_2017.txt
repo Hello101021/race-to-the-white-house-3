@@ -1,0 +1,30 @@
+bookmarks = {
+	bookmark = {
+		name = "SD_2017"
+		desc = "SD_2017_desc"
+		date = 2017.1.20.12
+		picture = "GFX_select_date_2017"
+		default_country = "USA"
+	
+		USA = {
+			history = USA_SOANE_Desc
+			ideology = democratic
+			ideas = {
+				USA_Civil_Rights_Movement
+				USA_Refuse_Fascism
+				USA_Bastion_Of_Democracy_Idea
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_arsenal_of_democracy
+				USA_selective_training_act
+			}
+		}
+        # minor = yes
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
